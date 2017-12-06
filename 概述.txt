@@ -1,0 +1,5 @@
+1.总共有数据19000个，18个feaure 输出二分类（one hot）
+2.在Andrew Ng的机器学习教程里，会将给定的数据集分为三部分：训练数据集（training set）、交叉验证数据集（cross validation set）、测试数据集（test set）。三者分别占总数据集的60%、20%、20%。 
+3.(x_input,y_input) 训练集 (xv,yv)验证集 (xt,yt) 测试集  (xinput,youtput)占位符
+4.网络结构 输入层 18 中间层 10 输出层 2 ， 损失函数-交叉熵（softmax & 交叉熵，tf.nn.softmax_cross_entropy_with_logits） 
+  激活函数 （tahn 首层 softmax中间层）  训练方法 （tf.train.AdamOptimizer）
