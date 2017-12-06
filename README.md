@@ -1,2 +1,0 @@
-# niutuo
-This is test
